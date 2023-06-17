@@ -1,7 +1,16 @@
 # Uber Data Anaytics | End-To-End Data Engineering Project
 
+## Architecture :
+![Architecture](doc/architecture.jpg)
+
+Details :
+- Cloud Storage to store the dataset
+- Mage tool to do ETL operations
+- Big-Query as datawarehouse
+- Google Looker for visualizing the data
+
 ## Prequisite :
-- Basic Python, SQL and upyter Notebook install
+- Basic Python, SQL and jupyter Notebook install
 - GCP Service : 
     - Cloud Storage
     - Compute Engine
@@ -22,8 +31,10 @@
 - Contains columns that have low cardinality and don't change frequently
 - Contains columns that can be used for grouping or filtering data for analysis
 
+## Dashboard :
+[![Dashboard](doc/Dashboard_Sample.png)](https://lookerstudio.google.com/reporting/b9e7f974-55c1-4d9c-8cfe-01786b17e04b)
 
-Link For update Documentation : 
-- Dashboard : https://lookerstudio.google.com/reporting/b9e7f974-55c1-4d9c-8cfe-01786b17e04b
-- Source : https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project
-- Draw IO : https://drive.google.com/file/d/1oRzrKgXkFVL5mU2NjdRpZ-tXKly2FR2F/view?usp=sharing
+Click picture for details
+
+## Data Modeling 
+![Data Modeling Uber](doc/data_modeling_uber.png)
